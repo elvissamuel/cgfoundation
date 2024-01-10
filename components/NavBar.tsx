@@ -4,24 +4,27 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '@/assets/cg-logo.jpg'
+import logo2 from '@/assets/cg-logo-new.png'
 import Image from 'next/image'
 
 const navigation = [
   { name: 'Home', href: '#' },
   { name: 'About Us', href: '#' },
   { name: 'Gallery', href: '#' },
-  { name: 'Contact Uss', href: '#' },
+  { name: 'Contact Us', href: '#' },
 ]
 
 export default function NavBar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-transparent">
+    <header className="">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <a href="#" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <Image className="h-12 w-auto" src={logo} alt="" />
+          <div className='bg-white p-2'>
+            <Image className="h-10 w-auto" src={logo2} alt="" />
+          </div>
         </a>
         <div className="flex lg:hidden">
           <button
@@ -52,7 +55,7 @@ export default function NavBar() {
               <span className="sr-only">Your Company</span>
               <Image
                 className="h-12 w-auto"
-                src={logo}
+                src={logo2}
                 alt=""
               />
             </a>

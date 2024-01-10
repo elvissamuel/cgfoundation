@@ -1,3 +1,5 @@
+import logo from '@/assets/cg-logo-new.png'
+
 const navigation = {
     main: [
       { name: 'Home', href: '#' },

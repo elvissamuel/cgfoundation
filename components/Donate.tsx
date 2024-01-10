@@ -11,8 +11,10 @@ const Donate = () => {
             approach begins by nurturing orphans in the cradle and ends with them becoming
             interdependent, contributing members of society</p>
 
-            <button className='bg-red-600 hover:bg-red-700 px-4 font-semibold py-2.5 rounded-md text-white'>MAKE A DONATION</button>
-            <button className='bg-sky-600 hover:bg-sky-700 px-4 font-semibold py-2.5 rounded-md text-white'>Join Us</button>
+            <div className='flex items-center gap-2'>
+              <button className='bg-red-600 hover:bg-red-700 px-4 font-semibold py-2.5 rounded-md text-white'>MAKE A DONATION</button>
+              <button className='bg-sky-600 uppercase hover:bg-sky-700 px-4 font-semibold py-2.5 rounded-md text-white'>Join Us</button>
+            </div>
       </div>
     </div>
   )

@@ -1,12 +1,12 @@
 import React from 'react'
-import gal1 from '../assets/gallery1.jpg'
-import gal2 from '../assets/gallery2.jpg'
-import gal3 from '../assets/gallery3.jpg'
-import gal4 from '../assets/gallery4.jpg'
-import gal5 from '../assets/gallery5.jpg'
-import gal6 from '../assets/gallery6.jpg'
-import gal7 from '../assets/gallery7.jpg'
-import gal8 from '../assets/hero-bg1.jpg'
+import gal1 from '../assets/cggal1.jpg'
+import gal2 from '../assets/cggal11.jpg'
+import gal3 from '../assets/cggal2.jpg'
+import gal4 from '../assets/cggal3.jpg'
+import gal5 from '../assets/cggal4.jpg'
+import gal6 from '../assets/cggal5.jpg'
+import gal7 from '../assets/cggal6.jpg'
+import gal8 from '../assets/cggal13.jpg'
 import Image from 'next/image'
 
 
@@ -15,7 +15,7 @@ const Gallery = () => {
   return (
     <div className='px-10 md:px-20 py-24 bg-gray-50'>
       <div className='text-black flex flex-col gap-2 justify-center items-center text-center mt-6 mb-14'>
-          <h2 className='text-3xl font-bold text-gray-500'>CG Foundation Gallery</h2>
+          <h2 className='text-3xl font-bold text-gray-500'>Calvon Grace Foundation Gallery</h2>
           <p className='text-gray-600'>Enjoy beautiful images of various outreaches we have engaged in over the past 3 years of our operation.</p>
       </div>
 
