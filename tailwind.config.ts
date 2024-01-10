@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+import bgimg from './assets/hero-bg1.jpg'
 
 const config: Config = {
   content: [
@@ -12,9 +13,13 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'donate-bg': 'url("https://images.unsplash.com/photo-1542317785-ae7b6fa20f55?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
+          
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 export default config
